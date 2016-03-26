@@ -17,6 +17,7 @@ import javax.servlet.http.HttpSession;
 @RestController()
 @RequestMapping("/api/session")
 public class AuthenticationResource {
+
   @Autowired
   AuthenticationManager authenticationManager;
 
@@ -39,4 +40,5 @@ public class AuthenticationResource {
   public void logout(HttpSession session) {
     session.invalidate();
   }
+
 }

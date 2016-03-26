@@ -10,8 +10,10 @@ import org.springframework.session.web.http.HeaderHttpSessionStrategy;
 @Configuration
 @Profile("redis")
 public class ExternalRedisConfig {
+
   @Bean
   public HeaderHttpSessionStrategy sessionStrategy() {
     return new HeaderHttpSessionStrategy();
   }
+
 }

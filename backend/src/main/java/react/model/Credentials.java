@@ -1,6 +1,7 @@
 package react.model;
 
 public class Credentials {
+
   private String username;
   private String password;
 
@@ -14,4 +15,5 @@ public class Credentials {
   public String getPassword() {
     return password;
   }
+
 }

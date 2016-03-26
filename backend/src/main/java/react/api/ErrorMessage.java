@@ -19,4 +19,5 @@ public class ErrorMessage {
   public String getMessageKey() {
     return messageKey;
   }
+
 }

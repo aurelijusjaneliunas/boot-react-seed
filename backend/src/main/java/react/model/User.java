@@ -3,6 +3,7 @@ package react.model;
 import java.io.Serializable;
 
 public class User implements Serializable {
+
   private String userName;
   private String token;
   private boolean authenticated;
@@ -27,4 +28,5 @@ public class User implements Serializable {
   public boolean isAuthenticated() {
     return authenticated;
   }
+
 }

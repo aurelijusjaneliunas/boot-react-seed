@@ -18,4 +18,5 @@ public class SimpleResource {
       .mapToObj(Integer::toString)
       .collect(Collectors.toList());
   }
+
 }
